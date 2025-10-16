@@ -13,7 +13,7 @@ def create_database():
             cursor = connection.cursor()
 
             # create database
-            cursor.execute("CREATE DATABASE IF NOT EXISTS mydatabase")
+            cursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
             print("Database created successfully")
 
             print("database 'alx_books_store created' successfully!")
